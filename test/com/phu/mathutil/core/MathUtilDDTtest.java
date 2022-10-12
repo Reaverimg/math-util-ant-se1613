@@ -25,6 +25,7 @@ public class MathUtilDDTtest {
     //Integer -> int, long -> long
     @Parameterized.Parameters
     public static Object[][] initData() {
+        
         //int a[] = {5, 10, 15, 20, 25}; // liet ke cac phan tu mang cach nhau dau phay
         //int b[] = {{1, 0}, {1, 1}, {2, 2}, {6, 3}, {24, 4}, {120, 5}, {720, 6}};
 //        int c[][] = {{1, 0},
