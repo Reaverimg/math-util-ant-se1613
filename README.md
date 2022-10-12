@@ -9,8 +9,9 @@
 
 ### Screen-shots
 
-![Build process with Ant] (https://github.com/Reaverimg/math-util-ant-se1613/blob/master/screenshot/build-process-with-ant.png)
-![DDT source code using JUnit] (https://github.com/Reaverimg/math-util-ant-se1613/blob/master/screenshot/unit-est-with-ddt.png)
+![Build process with Ant](https://github.com/Reaverimg/math-util-ant-se1613/blob/master/screenshot/build-process-with-ant.png)
+
+![DDT source code using JUnit](https://github.com/Reaverimg/math-util-ant-se1613/blob/master/screenshot/unit-est-with-ddt.png)
 
 
 #### Connect me via phulkse161112@gmail.com
