@@ -26,7 +26,7 @@ public class MathUtilTest {
         //thay ngoai le mung roi nuocc mat
         //khi dua vao -5
         //thay ngoai le xuat hien nh ki vong -> passed cai test -> mau xanh
-        System.out.println("Hope to see Exception illegal Argument Exception");
+        System.out.println("See Exception Illegal Argument Exception");
         MathUtil.getFactorial(-5);
     }
 
