@@ -21,21 +21,20 @@ public class MathUtil {
     //Vì giai thừa tăng cực nhanh,nên 21! đã vượt quá 18 số 0
     //tràn kiểu long
     //ta k tính 21! trở lên
+    //Sửa hàm tính giai thừa - cách xài đệ quy !!!
+    //n! = 1,2,3,4,5,,,n
+    //5! = 4! x 5
+    //4! = 4 x 3!
+    //n! = n x (n-1)! gọi lại chính mình với 1 quy mô khác / nhỏ hơn
     public static long getFactorial(int n) {
         if (n < 0 || n > 20) {
             throw new IllegalArgumentException("Invalid n, n must be between 0..20");
-        } else if (n == 0 || n == 1) {
+        }
+        if (n == 0 || n == 1) {
             return 1;
         }
-        long product = 1; // biena cong don nhan don bien con heo dat
-        for (int i = 2; i <= n; i++) {
-            product *= i;
-        }
-        //song sot den day sure n = 2..20
-        //k xai else vi da co return
-        return product;
+        return n * getFactorial(n - 1);
     }
-
 }
 //Coding convention: quy tac viet code Cty ep phai theo!!
 //Alt Shift F = format
